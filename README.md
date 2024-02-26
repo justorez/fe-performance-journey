@@ -1,5 +1,7 @@
 # 🚵 前端性能优化之旅
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/justorez/fe-performance-journey/deploy.yml?style=flat-square&logo=github&label=deploy)
+
 ![intro](./img/intro.jpg)
 
 ## 前端需要性能优化么？

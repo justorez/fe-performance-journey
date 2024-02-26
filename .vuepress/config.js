@@ -12,7 +12,7 @@ module.exports = {
             'link',
             {
                 rel: 'icon',
-                href: 'https://raw.githubusercontent.com/alienzhou/alienzhou.github.io/master/img/fe-performance-journey/favicon.png'
+                href: 'https://raw.githubusercontent.com/justorez/fe-performance-journey/master/img/favicon.png'
             }
         ],
         [
@@ -29,7 +29,7 @@ module.exports = {
     dest: '.vuepress/dist',
     themeConfig: {
         repo: 'justorez/fe-performance-journey',
-        repoLabel: 'Github, 欢迎 🌟',
+        repoLabel: 'Github',
         lastUpdated: '更新于',
         editLinks: true,
         editLinkText: '欢迎斧正',

@@ -3,17 +3,11 @@
   "version": "0.1.0",
   "description": "a Journey of Performance Optimizing in Frontend",
   "main": "null",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "start": "vuepress dev",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build",
-    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alienzhou/fe-performance-journey.git"
+    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider node scripts/test.js",
+    "sync": "node scripts/gitee.js"
   },
   "keywords": [
     "performance",
@@ -25,16 +19,13 @@
   ],
   "author": "alienzhou",
   "license": "Creative Commons BY-NC-ND 4.0",
-  "bugs": {
-    "url": "https://github.com/alienzhou/fe-performance-journey/issues"
-  },
-  "homepage": "https://github.com/alienzhou/fe-performance-journey#readme",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.44",
     "@vuepress/plugin-last-updated": "^1.0.3",
     "@vuepress/plugin-nprogress": "^1.0.0-rc.1",
     "cross-env": "^7.0.3",
+    "shelljs": "^0.8.5",
     "vuepress": "^1.0.3"
   }
 }

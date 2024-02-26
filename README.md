@@ -1,7 +1,5 @@
 # 🚵 前端性能优化之旅
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/justorez/fe-performance-journey/deploy.yml?style=flat-square&logo=github&label=deploy)](https://github.com/justorez/fe-performance-journey/actions/workflows/deploy.yml)
-
 ![intro](./img/intro.jpg)
 
 ## 前端需要性能优化么？
@@ -60,7 +58,7 @@
 
 ![overall](./img/overall.svg)
 
-[>> 去站点阅读 >>](https://alienzhou.github.io/fe-performance-journey/)
+[>> 去站点阅读 >>](https://justorez.github.io/fe-performance-journey/)
 
 ## 参考资料
 

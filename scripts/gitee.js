@@ -1,5 +1,6 @@
 const shell = require('shelljs')
 
+shell.exec('git push -f git@gitee.com:justorez/fe-performance-journey.git master:master')
 shell.exec('pnpm run build')
 shell.cd('.vuepress/dist')
 shell.exec('git init')
